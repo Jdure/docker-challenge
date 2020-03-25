@@ -1,4 +1,4 @@
-# Next Steps
+# Init Database
 Before running docker-compose up you'll need to initialize the database.
 
 Here are simple steps to build a database:
@@ -36,6 +36,6 @@ Now you should be able to run your docker commands with a populated database
 ***
 Credits
 
-[https://github.com/Radu-Raicea/Dockerized-Flask/wiki/%5BDocker%5D-Access-the-PostgreSQL-command-line-terminal-through-Docker]Access the PostgreSQL command line terminal through Docker
+[https://github.com/Radu-Raicea/Dockerized-Flask/wiki/%5BDocker%5D-Access-the-PostgreSQL-command-line-terminal-through-Docker](Access the PostgreSQL command line terminal through Docker)
 
-[https://vnegrisolo.github.io/postgresql/generate-fake-data-using-sql]Generating fake data using SQL
+[https://vnegrisolo.github.io/postgresql/generate-fake-data-using-sql](Generating fake data using SQL)

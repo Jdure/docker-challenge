@@ -30,12 +30,12 @@ Here are simple steps to build a database:
         ```
 
 2. Once completed exit
-
-`\q`
+        
+     `\q`
 
 3. Now you should be able to run your docker commands with a populated database
 
-`docker-compose up`
+    `docker-compose up`
 
 ------ 
 Credits

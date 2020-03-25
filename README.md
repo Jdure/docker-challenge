@@ -1,4 +1,4 @@
-# Next Steps
+# Init Database
 Before running docker-compose up you'll need to initialize the database.
 
 Here are simple steps to build a database:

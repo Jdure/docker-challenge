@@ -5,31 +5,31 @@ Here are simple steps to build a database:
 
 1. Initialize Database
 
-+ Enter into the container
+⋅⋅⋅Enter into the container
 
 ```docker exec -it postgres psql -U [username]```
 
-+ Create your database
+⋅⋅⋅Create your database
 
 ```CREATE DATABASE <database_name>```
 
-+ Connect to your database
+⋅⋅⋅Connect to your database
 
 ```\c <database_name>```
 
-+ Create a table
+⋅⋅⋅Create a table
 
 ```CREATE TABLE users( id SERIAL PRIMARY KEY, email VARCHAR(40) NOT NULL UNIQUE );```
 
-+ Insert email address for each user
+⋅⋅⋅Insert email address for each user
 
 ```INSERT INTO users(email) SELECT 'user_' || seq | '@' || ( CASE (RANDOM() * 2)::INT WHEN 0 THEN 'gmail' WHEN 1 THEN 'hotmail' WHEN 2 THEN 'yahoo' END ) || '.com' AS email FROM GENERATE_SERIES(1, 10) seq;```
 
-Once completed exit
+2. Once completed exit
 
 ```\q```
 
-Now you should be able to run your docker commands with a populated database
+3. Now you should be able to run your docker commands with a populated database
 
 ```docker-compose up```
 

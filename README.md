@@ -1,6 +1,6 @@
 # README
 
-1. Launch the docker container
+1. Launch the docker container.
    
     `docker-compose up`
 
